@@ -1,0 +1,197 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* hero styles */
+
+.hero {
+    background-color: rgb(229, 69, 120);
+}
+.topNav {
+    width: 1000px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: none;
+    margin-bottom: 70px;
+}
+.topNav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    color: aliceblue;
+}
+
+.heroContent {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.leftcontent {
+    width: 470px;
+}
+.heroContent img {
+    width: 250px;
+    height: 500px;
+    transform:rotate(20deg);
+    position: relative;
+    left: -90px;
+}
+
+button {
+    width: 180px;
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+    background-color: black;
+    color: aliceblue;
+}
+.button img {
+    width: 24px;
+    height: 24px;
+}
+
+/* layer2 styles */
+
+.layer2 {
+    position: relative;
+    background-color: aliceblue;
+    z-index: 2;
+    top: -110px;
+    padding-top: 20px;
+}
+.kardz {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.kard1 {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+p {
+    font-size: 18px;
+    text-align: center;
+}
+
+/* layer3 styles */
+
+.layer3 {
+    background-color: #EF8172;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    top: -110px;
+}
+.l3content {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.dogprofile {
+    display: flex;
+    align-items: center;
+}
+.dogprofile p {
+    color: #F1F0F0;
+}
+.dogfoto {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background-image: url(./cola-0247.jpeg);
+    background-size: 100%;
+    margin-right: 12px;
+}
+
+/* layer4 styles */
+
+.layer4 {
+
+}
+.l4content {
+    width: 1000px;
+    margin: auto;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cardA {
+    width: 300px;
+    background: #FFFFFF;
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cardAhead {
+    width: 300px;
+    height: 50px;
+    background: #F1F0F0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* layer5 */
+
+.layer5 {
+    background-color: rgb(229, 69, 120);
+    color: #F1F0F0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.l5content {
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+/* footer Styles */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+.social_icons {
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
